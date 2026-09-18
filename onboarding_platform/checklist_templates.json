@@ -1,0 +1,203 @@
+{
+  "default": [
+    {
+      "title": "Read the project README",
+      "description": "Understand the high-level purpose, architecture, and setup steps of the project.",
+      "category": "Setup"
+    },
+    {
+      "title": "Set up your local development environment",
+      "description": "Install dependencies, configure environment variables, and run the app locally.",
+      "category": "Setup"
+    },
+    {
+      "title": "Review the contributing guidelines",
+      "description": "Understand the branching strategy, PR process, and code review expectations.",
+      "category": "Team Norms"
+    },
+    {
+      "title": "Meet your onboarding buddy",
+      "description": "Schedule a 30-minute intro call with your assigned buddy.",
+      "category": "Team Norms"
+    },
+    {
+      "title": "Join the relevant Slack / Teams channels",
+      "description": "Ask your buddy for the list of channels you should be in.",
+      "category": "Team Norms"
+    },
+    {
+      "title": "Explore the codebase top-level structure",
+      "description": "Browse the directories and understand what each module does at a high level.",
+      "category": "Learning"
+    },
+    {
+      "title": "Complete your first small ticket",
+      "description": "Pick up a good-first-issue ticket and submit a PR.",
+      "category": "First Task"
+    }
+  ],
+  "Backend Engineer": [
+    {
+      "title": "Understand the API design patterns",
+      "description": "Read existing API controllers/routes to understand REST conventions used.",
+      "category": "Learning"
+    },
+    {
+      "title": "Review the database schema",
+      "description": "Understand the main tables/collections, relationships, and migration strategy.",
+      "category": "Learning"
+    },
+    {
+      "title": "Run the test suite",
+      "description": "Run all unit and integration tests locally and confirm they pass.",
+      "category": "Setup"
+    },
+    {
+      "title": "Understand error handling and logging conventions",
+      "description": "Read how errors are caught, logged, and surfaced in the backend.",
+      "category": "Learning"
+    },
+    {
+      "title": "Implement a simple CRUD endpoint",
+      "description": "Add a new endpoint following existing patterns as your first coding task.",
+      "category": "First Task"
+    }
+  ],
+  "Frontend Engineer": [
+    {
+      "title": "Set up the frontend dev server",
+      "description": "Run the frontend locally with hot-reload enabled.",
+      "category": "Setup"
+    },
+    {
+      "title": "Understand the component library / design system",
+      "description": "Browse existing UI components and understand naming and styling conventions.",
+      "category": "Learning"
+    },
+    {
+      "title": "Review the state management approach",
+      "description": "Understand how global vs local state is managed (Redux, Context, Zustand, etc.).",
+      "category": "Learning"
+    },
+    {
+      "title": "Fix a small UI bug",
+      "description": "Pick a small visual bug or tweak as your first task.",
+      "category": "First Task"
+    }
+  ],
+  "Full-Stack Engineer": [
+    {
+      "title": "Understand the API design patterns",
+      "description": "Read existing API controllers/routes to understand REST conventions used.",
+      "category": "Learning"
+    },
+    {
+      "title": "Review the database schema",
+      "description": "Understand the main tables/collections, relationships, and migration strategy.",
+      "category": "Learning"
+    },
+    {
+      "title": "Set up the frontend dev server",
+      "description": "Run the frontend locally with hot-reload enabled.",
+      "category": "Setup"
+    },
+    {
+      "title": "Trace a full request from UI to DB and back",
+      "description": "Pick a simple feature and follow the code path end-to-end.",
+      "category": "Learning"
+    },
+    {
+      "title": "Implement a small end-to-end feature",
+      "description": "Add a feature that touches both frontend and backend as your first task.",
+      "category": "First Task"
+    }
+  ],
+  "DevOps / Platform Engineer": [
+    {
+      "title": "Understand the CI/CD pipeline",
+      "description": "Review the pipeline config files (GitHub Actions, Jenkins, etc.) and understand each stage.",
+      "category": "Learning"
+    },
+    {
+      "title": "Review infrastructure-as-code files",
+      "description": "Read Terraform, Helm charts, or CloudFormation templates to understand the deployed topology.",
+      "category": "Learning"
+    },
+    {
+      "title": "Access the monitoring dashboards",
+      "description": "Log in to the observability platform (Grafana, Datadog, etc.) and browse key dashboards.",
+      "category": "Setup"
+    },
+    {
+      "title": "Deploy a change to staging",
+      "description": "Make a small config change and push it through the pipeline to the staging environment.",
+      "category": "First Task"
+    }
+  ],
+  "Data Engineer": [
+    {
+      "title": "Understand the data pipeline architecture",
+      "description": "Review how data flows from source systems to the data warehouse or lake.",
+      "category": "Learning"
+    },
+    {
+      "title": "Review existing DAGs / jobs",
+      "description": "Browse current Airflow DAGs or equivalent pipeline definitions.",
+      "category": "Learning"
+    },
+    {
+      "title": "Connect to the data warehouse locally",
+      "description": "Set up credentials and run a test query against the warehouse.",
+      "category": "Setup"
+    },
+    {
+      "title": "Add a small transformation to an existing pipeline",
+      "description": "Implement a minor data transformation as your first coding task.",
+      "category": "First Task"
+    }
+  ],
+  "QA / Test Engineer": [
+    {
+      "title": "Understand the QA strategy and test levels",
+      "description": "Review the testing documentation — unit, integration, E2E, and manual testing scope.",
+      "category": "Learning"
+    },
+    {
+      "title": "Run the full E2E test suite",
+      "description": "Execute the end-to-end tests locally and review the results.",
+      "category": "Setup"
+    },
+    {
+      "title": "Review the bug tracking workflow",
+      "description": "Understand how bugs are filed, triaged, and linked to releases.",
+      "category": "Team Norms"
+    },
+    {
+      "title": "Write a test for an untested feature",
+      "description": "Identify a gap in test coverage and write a new test as your first task.",
+      "category": "First Task"
+    }
+  ],
+  "Technical Lead": [
+    {
+      "title": "Review open architectural decisions (ADRs)",
+      "description": "Read existing Architecture Decision Records and understand pending decisions.",
+      "category": "Learning"
+    },
+    {
+      "title": "Meet all team members individually",
+      "description": "Schedule brief 1-on-1 introductions with each team member in your first week.",
+      "category": "Team Norms"
+    },
+    {
+      "title": "Review the current sprint / backlog",
+      "description": "Understand priorities, blockers, and in-flight work.",
+      "category": "Team Norms"
+    },
+    {
+      "title": "Identify your first technical improvement area",
+      "description": "Document one area of technical debt or improvement you want to tackle.",
+      "category": "First Task"
+    }
+  ]
+}
